@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Signup </title>
+<style>
+    h2{
+    font-family: Calibri; 
+    font-size: 25pt;         
+    font-style: normal; 
+    font-weight: bold; 
+    color:coral;
+    text-align: center; 
+    text-decoration: underline
+  }
+  
+  table{
+    font-family: Calibri; 
+    color:white; 
+    font-size: 11pt; 
+    font-style: normal;
+    font-weight: bold;
+    text-align:left; 
+    background-color:coral; 
+    border-collapse: collapse; 
+    border-spacing: 0 5px;
+    border: 2px solid rgb(240, 248, 248);
+    padding-inline: 0;
+  }
+  table.inner{
+    border: 0px
+  }
+  .body1 {
+  background-image: url('s.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+</style>
+</head>
+ 
+<body class="body1">
+  <form name="regst" method="get" action="save.html">
+<h2><b><center> Signup</center> </b></h2>
+
+ 
+<table align="center" cellpadding = "10">
+ 
+<!----- First Name ---------------------------------------------------------->
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="First_Name" maxlength="30"required/>
+</td>
+</tr>
+ 
+<!----- Last Name ---------------------------------------------------------->
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Last_Name" maxlength="30"required/>
+</td>
+</tr>
+
+<tr>
+    <td>SURNAME</td>
+    <td><input type="text" name="First_Name" maxlength="30"required/>
+    </td>
+</tr>
+ 
+<!----- Date Of Birth -------------------------------------------------------->
+<tr>
+<td>DATE OF BIRTH</td>
+ 
+<td>
+<input type="DATE" name="Birthday_day" id="Birthday_Day"required>
+</input>
+  
+<!----- Email Id ---------------------------------------------------------->
+<tr>
+<td>EMAIL ID</td>
+<td><input type="text" name="Email_Id" maxlength="100" placeholder="abc@gmail.com"required /></td>
+</tr>
+
+<!----------Password---------------------------------------------------->
+<tr>
+  <td>Password</td>
+  <td><input type="password" name="Password" minlength="8" required/></td>
+</tr>
+ 
+<!----- Mobile Number ---------------------------------------------------------->
+<tr>
+<td>MOBILE NUMBER: +91</td>
+<td>
+<input type="tel" name="Mobile_Number" maxlength="10" minlength="10" required/>
+</td>
+</tr>
+ 
+<!----- Gender ----------------------------------------------------------->
+<tr>
+<td>GENDER</td>
+<td>
+Male <input type="radio" name="Gender" value="Male"required />
+Female <input type="radio" name="Gender" value="Female" />
+</td>
+</tr>
+ 
+<!----- Address ---------------------------------------------------------->
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="Address" rows="4" cols="30"required></textarea></td>
+</tr>
+
+<!----- Hobbies ---------------------------------------------------------->
+
+
+
+<td>HOBBIES <br /><br /><br /></td>
+ 
+<td>
+Drawing
+<input type="checkbox" name="Hobby_Drawing" value="Drawing" />
+Singing
+<input type="checkbox" name="Hobby_Singing" value="Singing" />
+Dancing
+<input type="checkbox" name="Hobby_Dancing" value="Dancing" />
+Sketching
+<input type="checkbox" name="Hobby_Cooking" value="Cooking" />
+<br /> <br>
+Others
+<input type="checkbox" name="Hobby_Other" value="Other">
+<input type="text" name="Other_Hobby" maxlength="30" />
+</td>
+</tr>
+ 
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="SUBMIT"> 
+<input type="reset" value="RESET">
+</td>
+</tr>
+
+</table>
+ 
+</form>
+ 
+</body>
+</html>
