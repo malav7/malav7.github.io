@@ -3,52 +3,89 @@
 <head>
 <title>Library Management</title>
 <style>
-    .division{
-       background-color:rgb(206, 183, 122);
-       color: white;
-       border:3px solid gray;
-       width: 300px;
-       margin-left:15cm;
-    }
-    .body1 {
-  background-image: url('library.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url(p1.jpg);
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }
    img{
      margin-left:100px;
-     margin-top: 25px;
+     margin-top: 20px;
+     margin-bottom: 10px;
    }
    
-   
+  .bgimage{
+    background-color:gainsboro
+
+  } 
+  .footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color:white
+}
 </style>
 </head>
 
-<body class="body1">
+<body>
     
-  <div>
-    <center>
-    <b><h1 style="background-color:cadetblue;">VEER NARMAD LIBRARY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="login.html" target="_blank">Login</a></h1></b>
-    </center>
+  <div class="header">
+    <h1>Veer Narmad Library</h1>
+    <p>Knowledge is power</p>
   </div>
-<div class="division">
-    <center>
-    <a  href="index.html">Home</a>
-    &nbsp;
+  
+  <div class="navbar">
+    <a href="index.html">Home</a>
     <a href="b.html">Contact</a>
-    &nbsp;
     <a href="1.html">About</a>
-    &nbsp;
-    
-    </center>
+    <a href="help.html">Help</a>
+    <a href="login.html" class="right">LOGIN</a>
   </div>
 
-  <div style="color:rgb(161, 223, 199);">
+  <div class="bgimage">
       <center>
-      <p><h1> WELCOME</h1></p>
+      <p><h1 style=color:#333> WELCOME</h1></p>
       </center>
-  </div>
+  
 <br>
 <br>
 <br>
@@ -62,6 +99,14 @@
     <img src="book5.jpg" align="center" height="300px" width="200px">
     <img src="book6.jpg" align="center" height="300px" width="200px">
     
+  </div>
+  </div>
+  <div class="footer">
+    <h4>Contact Info</h4>
+    <br>Malav Fultariya</br>
+    <br>malavpatel200@gmail.com</br>
+    <br>UKA Tarsadia University
+    <br>Bardoli, Surat
   </div>
 </body>
 </html>  

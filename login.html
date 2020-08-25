@@ -28,39 +28,78 @@
   table.inner{
     border: 0px
   }
-  .body1 {
-  background-image: url('library.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  }
-  .division{
-       background-color:rgb(206, 183, 122);
-       color: white;
-       border:3px solid gray;
-       width: 300px;
-       margin-left:15cm;
-    }
-</style>
-<div>
-  <center>
-  <b><h1 style="background-color:rgba(23, 197, 183, 0.445);">VEER NARMAD LIBRARY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1></b>
-  </center>
-</div>
-<div class="division">
-  <center>
-  <a  href="index.html">Home</a>
-  &nbsp;
-  <a href="b.html">Contact</a>
-  &nbsp;
-  <a href="1.html">About</a>
-  &nbsp;
   
-  </center>
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url(p1.jpg);
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color:white
+}
+.color
+{
+  background-color:cadetblue;
+}
+  
+</style>
+<div class="header">
+  <h1>Veer Narmad Library</h1>
+  <p>Knowledge is power</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="b.html">Contact</a>
+  <a href="1.html">About</a>
+  <a href="help.html">Help</a>
+  <a href="login.html" class="right">LOGIN</a>
 </div>
 <h2><b><center>Login</center> </b></h2>
 </head>
-<body class="body1">
+<body class="color">
 	<br><br>
 	<center>
 <form name="loginForm" method="post" action="index.html">
@@ -86,5 +125,12 @@
 </table>
 </form>
 </center>
+<div class="footer">
+  <h4>Contact Info</h4>
+  <br>Malav Fultariya</br>
+  <br>malavpatel200@gmail.com</br>
+  <br>UKA Tarsadia University
+  <br>Bardoli, Surat
+</div>
 </body>
 </html>
