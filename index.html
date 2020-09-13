@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
 <title>Library Management</title>
 <style>
     body {
@@ -77,6 +79,28 @@
   background-color: #2196F3;
   color: white;
 }
+@media screen and (max-width: 600px)
+{
+.navbar a{
+float:none;
+overflow: hidden;
+width:100%;
+text-align: center;
+}
+.navbar a.right{
+float:none;
+width:100%;
+text-align: center;
+}
+.navbar input[type=text]{
+  float:none;
+  margin-left:200px;
+  border:2px solid black;
+}
+.img{
+  align:center;
+}
+}
 </style>
 </head>
 
@@ -93,8 +117,9 @@
     <a href="b.html">Contact</a>
     <a href="1.html">About</a>
     <a href="help.html">Help</a>
-    <input type="text" placeholder="Search..">
     <a href="login.html" class="right">LOGIN</a>
+    <input type="text" placeholder="Search..">
+    
   </div>
 
   <div class="bgimage">
