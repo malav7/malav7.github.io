@@ -55,29 +55,20 @@
 .navbar a:hover {
   background-color: #ddd;
   color: black;
-}
-   .img{
-     margin-left:100px;
-     margin-top: 20px;
-     margin-bottom: 10px;
    }
-   div.gallery {
-  margin: 25px;
-  float: left;
-  width: 200px;
+   .navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
 }
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-a:link, a:visited {
-  background-color:#333;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
+.bgimage{
+    background-color:gainsboro
+
+  } 
+   
    .para{
      height:200px;
      width:700px;
@@ -85,24 +76,22 @@ a:link, a:visited {
      margin-left:2cm;
     
    }
-  .bgimage{
-    background-color:gainsboro
-
-  } 
-  
+   .img{
+     margin-left:100px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+   }
   .footer {
+    position:absolute;
+    width:100%;
   padding: 20px;
   text-align:left;
   background: black;
   color:white
 }
-.navbar input[type=text] {
-  float: right;
-  padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
-  border: none;
-  font-size: 17px;
+.navbar a.active {
+  background-color: #2196F3;
+  color: white;
 }
 
 @media screen and (min-width: 300px) and (max-width:350px)
@@ -133,7 +122,6 @@ text-align: center;
   margin-left:70px;
   border:2px solid black;
 }
-
 }
 @media screen and (min-width: 350px) and (max-width: 400px)
 {
@@ -232,7 +220,7 @@ text-align: center;
 <body>
     
   <div class="header">
-    <img class="logo" src="logo.jpg" align="left" </img>
+    <img class="logo" src="logo.jpg" align="left"> </img>
     <h1>UKA Tarsadia Library</h1>
     <p>Knowledge is power</p>
   </div>
@@ -246,52 +234,60 @@ text-align: center;
     <input type="text" placeholder="Search..">
     
   </div>
-
-  <div class="bgimage">
-      <div><h1 align="center">New Updates</h1></div>
-  <div class="para">
-   <h3> We're already almost halfway through 2020, but fortunately, the publishing industry has been keeping pace with the passage of 
-    time, with a slew of the year’s most anticipated titles already out, and many more on the way. If you’re looking to make a dent
-     in your GoodReads goal for the year, keep an eye on this list of the top new books to watch out for in 2020.</h3>
-  </div>
-
-
-  <div class="gallery">
-    <img src="new1.jpg" align="center" height="300px" width="200px">
-   <div class="desc"><a href="save.html">Details</a> </div>
-   </div>
-   <div class="gallery">
-    <img src="new2.jpg" align="center" height="300px" width="200px">
-    <div class="desc"><a href="save.html">Details</a> </div>
-   </div>
-   <div class="gallery">
-    <img src="new3.jpg" align="center" height="300px" width="200px">
-    <div class="desc"><a href="save.html">Details</a> </div>
-  </div>
-  <div class="gallery">
-    <img src="new4.jpg" align="center" height="300px" width="200px">
-    <div class="desc"><a href="save.html">Details</a> </div>
-  </div>
-  <div class="gallery">
-    <img src="new5.jpg" align="center" height="300px" width="200px">
-    <div class="desc"><a href="save.html">Details</a> </div>
-  </div>
-  <div class="gallery">
-    <img src="new6.jpg" align="center" height="300px" width="200px">
-    <div class="desc"><a href="save.html">Details</a> </div>
-  </div>
+    
   
-  </div>
+      <div><h1 align="center">New Updates</h1></div>
+      <div class="para">
+        <h3> We're already almost halfway through 2020, but fortunately, the publishing industry has been keeping pace with the passage of 
+       time, with a slew of the year’s most anticipated titles already out, and many more on the way. If you’re looking to make a dent
+       in your GoodReads goal for the year, keep an eye on this list of the top new books to watch out for in 2020.</h3>
+      </div>
+      
+    
+        <a href="save.html">
+        <img class="img" src="new1.jpg" align="center" height="300px" width="200px">
+        </a>
+        <a href="save.html">
+          <img class="img" src="new2.jpg" align="center" height="300px" width="200px">
+          </a>
+          <a href="save.html">
+            <img class="img" src="new3.jpg" align="center" height="300px" width="200px">
+            </a>
+            <a href="save.html">
+              <img class="img" src="new4.jpg" align="center" height="300px" width="200px">
+              </a>
+              <a href="save.html">
+                <img class="img" src="new5.jpg" align="center" height="300px" width="200px">
+                </a>
+                <a href="save.html">
+                  <img class="img" src="new6.jpg" align="center" height="300px" width="200px">
+                  </a>
+                  <a href="save.html">
+                    <img class="img" src="new7.jpg" align="center" height="300px" width="200px">
+                    </a>
+                    <a href="save.html">
+                      <img class="img" src="new8.jpeg" align="center" height="300px" width="200px">
+                      </a>
+                      <a href="save.html">
+                        <img class="img" src="new9.jpg" align="center" height="300px" width="200px">
+                        </a>
+                        <a href="save.html">
+                          <img class="img" src="new10.jpg" align="center" height="300px" width="200px">
+                          </a>
+     
+        <br>
+        <br>
+        <br>
+   
   <div class="footer">
     <h4>Contact Info</h4>
     <br>Malav Fultariya</br>
-    
     <br>malavpatel200@gmail.com</br>
     <br>UKA Tarsadia University
     <br>Bardoli, Surat</br>
-    <img src="insta.png" style="height:50px;width:50px;"></img>
-    <img src="fb.jpg" style="height:50px;width:50px;"></img>
-    <img src="gmail.png" style="height:50px;width:50px;"></img>
+    <img src="insta.png" style="height:40px;width:40px;"></img>
+    <img src="fb.jpg" style="height:40px;width:40px;"></img>
+    <img src="gmail.png" style="height:40px;width:40px;"></img>
   </div>
 </body>
 </html>  
