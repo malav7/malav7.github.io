@@ -38,133 +38,11 @@
   background: black;
   color:white
 }
-.color
-{
-	background-color:gainsboro;
-}
 
-@media screen and (min-width: 300px) and (max-width:350px)
-{
-  .logo{
-    width:80px;
-    height:80px;
-  }
-  .header{
-    padding:20px;
-  }
-  .header h1{
-    font-size:30px;
-  }
-.navbar a{
-float:none;
-overflow: hidden;
-width:100%;
-text-align: center;
-}
-.navbar a.right{
-float:none;
-width:100%;
-text-align: center;
-}
-.navbar input[type=text]{
-  float:none;
-  margin-left:70px;
-  border:2px solid black;
-}
 
-}
-@media screen and (min-width: 350px) and (max-width: 400px)
-{
-  .logo{
-    width:100px;
-    height:100px;
-  }
-  .header{
-    padding:20px;
-  }
-  .header h1{
-    font-size:30px;
-  }
-.navbar a{
-float:none;
-overflow: hidden;
-width:100%;
-text-align: center;
-}
-.navbar a.right{
-float:none;
-width:100%;
-text-align: center;
-}
-.navbar input[type=text]{
-  float:none;
-  margin-left:100px;
-  border:2px solid black;
-}
 
-}
-@media screen and (min-width: 400px) and (max-width: 500px)
-{
-  .logo{
-    width:100px;
-    height:100px;
-  }
-  .header{
-    padding:20px;
-  }
-  .header h1{
-    font-size:30px;
-  }
-.navbar a{
-float:none;
-overflow: hidden;
-width:100%;
-text-align: center;
-}
-.navbar a.right{
-float:none;
-width:100%;
-text-align: center;
-}
-.navbar input[type=text]{
-  float:none;
-  margin-left:100px;
-  border:2px solid black;
-}
-
-}
-@media screen and (min-width:500px) and (max-width: 600px)
-{
-  .logo{
-    width:100px;
-    height:100px;
-  }
-  .header{
-    padding:20px;
-  }
-  .header h1{
-    font-size:30px;
-  }
-.navbar a{
-float:none;
-overflow: hidden;
-width:100%;
-text-align: center;
-}
-.navbar a.right{
-float:none;
-width:100%;
-text-align: center;
-}
-.navbar input[type=text]{
-  float:none;
-  margin-left:100px;
-  border:2px solid black;
-}
-
-}
 	</style>
-	<body class="color">
+	<body>
 		<div class="header">
 			<img class="logo" align="left" src="logo.jpg" ></img>
             <h1>UKA Tarsadia Library</h1>
@@ -206,27 +84,42 @@ text-align: center;
       <br>
 		
 		<br /><br />
-		<form name="frm" method="get" action="#" >
-		<div name="sec" style="border:hidden; margin-left:50; background-color:; font-family:Arial, Helvetica, sans-serif; 
-					width:650; height:300; color: #000000">
+		
+		<div class="container">
 			<h1> About us... </h1>
-			<font size="+1"> 
+			
 			&nbsp;&nbsp;&nbsp;	We are doing this as the project of our college. We are the students of UKA Tarsadia University.
 			We are the students of 5th sem of Computer Engineering. There are 4 students in the group.
-			&nbsp;<br></br>
-			<br>Malav Fultariya - 201803100910113</br>
-			<br>Mavani Sahil - 201803100910109</br>
-			<br>Mahesh Viradiya - 201803100910110</br>
-			<br>Varshil Suhagiya - 201803100910118</br>		  
-				<br /><br /><br />	
-			</font>
-			<input type="button" name="btn" value="Learn more"  style="background-color:#0000FF; width:120; height:40; color:#FFFFFF; 						                          text-shadow:#0000FF; font-size:15px"/>
+      &nbsp;<br></br>
+      <div class="row">
+        <div class="col-sm-4">
+			<div class="card" style="width:400px">
+        <div class="card-body">
+          <h4 class="card-title">Malav Fultariya</h4>
+          <p class="card-text">I'm a student of 5th sem Computer Engineering</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+        <img class="card-img-bottom" src="malav.JPG" alt="Card image" style="width:100%">
+      </div>
+      </div>
+    
+			<div class="col-sm-4">
+    <div class="card" style="width:400px">
+      <div class="card-body">
+        <h4 class="card-title">Jane Doe</h4>
+        <p class="card-text">I'm a student of 5th sem Computer Engineering</p>
+        <a href="#" class="btn btn-primary">See Profile</a>
+      </div>
+      <img class="card-img-bottom" src="malav.JPG" alt="Card image" style="width:100%">
+    </div>
+  	</div>                         
 			
-			<br><br><br><br>			
-		</div>
-		</form>
-		<div name="img" style="width:250; height:120; background-color:;">
-				
+      <br>
+      <br>
+      <br>
+      <br>			
+		
+		</div>		
 		</div>
 		<div class="footer">
 			<h4>Contact Info</h4>
