@@ -38,6 +38,18 @@
   background: black;
   color:white
 }
+@media screen and (min-width: 370px) and (max-width: 440px)
+{
+  .header h1{
+    font-size: 20px;
+    
+
+  }
+  .logo{
+    width:80px;
+    height:80px;
+  }
+}
 
 
 	</style>
@@ -45,8 +57,9 @@
 		<div class="header">
 			<img class="logo" align="left" src="logo.jpg" ></img>
             <h1>UKA Tarsadia Library</h1>
-			<p>Knowledge is power</p>
-		  </div>
+            <p style="text-align: center; size: 20px;">Knowledge is power</p>
+      </div>
+      
 		  
 		  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <a class="navbar-brand" href="index.html">Home</a>
@@ -83,11 +96,10 @@
       <br>
 		
 		<br /><br />
-		<form name="frm"  method="get" action="#" >
-		<div name="sec" style="border:hidden; margin-left:50; background-color: ; font-family:Arial, Helvetica, sans-serif; 
-					width:650; height:400; color: #000000">
+		
+          <div class="container">
 			<h1> Contact.. </h1>
-			<font size="+1"> 
+		
 					UKA Tarsadia Library Contact Us page demonstrates how a contact page can be used as a customer service tool. 
 					At the top, there are two large CTA's connecting visitors with the  Support teams. 
 					It  understands people visiting this page are likely to need help troubleshooting one.
@@ -98,7 +110,7 @@
 				Email &nbsp;&nbsp;&nbsp;  : ukatarsadiaadmin@gmail.com <br />
 				Mobile &nbsp; : 45721542
 				<br /><br />	
-			</font>
+			</div>
 			<textarea name="msg"  style="width:220; height:70;" value="Type your Question here.." > </textarea><br /> <br />
 			<input type="submit" name="btnsubmit" value="Contact" style="width:75; height:25; border: hidden; background-color:#0033FF; 				                                 color:#FFFFFF"  />
 		</div>
